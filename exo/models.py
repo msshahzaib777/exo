@@ -139,6 +139,11 @@ model_cards = {
   "qwen-2.5-coder-32b": { "layers": 64, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen2.5-Coder-32B-Instruct-4bit", }, },
   "qwen-2.5-72b": { "layers": 80, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen2.5-72B-Instruct-4bit", }, },
   "qwen-2.5-math-72b": { "layers": 80, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen2.5-Math-72B-Instruct-4bit", }, },
+  # qwen3
+  "qwen3-coder-480b-A35b-instruct-4bit": { "layers": 62, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-Coder-480B-A35B-Instruct-4bit", }, },
+  "qwen3-235b-a22b-thinking-2507-mlx-8bit": { "layers": 94, "repo": { "MLXDynamicShardInferenceEngine": "lmstudio-community/Qwen3-235B-A22B-Thinking-2507-MLX-8bit", }, },
+  "qwen3-235b-a22b-instruct-2507-mlx-3bit": { "layers": 94, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-235B-A22B-Instruct-2507-3bit", }, },
+
   ### nemotron
   "nemotron-70b": { "layers": 80, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/nvidia_Llama-3.1-Nemotron-70B-Instruct-HF_4bit", }, },
   "nemotron-70b-bf16": { "layers": 80, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Llama-3.1-Nemotron-70B-Instruct-HF-bf16", }, },
@@ -193,6 +198,9 @@ pretty_name = {
   "qwen-2.5-coder-32b": "Qwen 2.5 Coder 32B",
   "qwen-2.5-72b": "Qwen 2.5 72B",
   "qwen-2.5-math-72b": "Qwen 2.5 72B (Math)",
+  "qwen3-coder-480b-a35b-instruct-4bit":"Qwen3 Coder 480B A35B Instruct 4bit",
+  "qwen3-235b-a22b-thinking-2507-mlx-8bit": "Qwen3 235B A22B thinking 2507 8bit",
+  "qwen3-235b-a22b-instruct-2507-mlx-3bit": "qwen3 235B A22B Instruct 2507 3bit",
   "phi-3.5-mini": "Phi-3.5 Mini",
   "phi-4": "Phi-4",
   "llama-3-8b": "Llama 3 8B",
@@ -223,12 +231,9 @@ pretty_name = {
   "deepseek-r1-distill-llama-8b": "DeepSeek R1 Distill Llama 8B",
   "deepseek-r1-distill-llama-8b-3bit": "DeepSeek R1 Distill Llama 8B (3-bit)",
   "deepseek-r1-distill-llama-8b-6bit": "DeepSeek R1 Distill Llama 8B (6-bit)",
-  "deepseek-r1-distill-llama-8b-8bit": "DeepSeek R1 Distill Llama 8B (8-bit)",
   "deepseek-r1-distill-llama-8b-bf16": "DeepSeek R1 Distill Llama 8B (BF16)",
   "deepseek-r1-distill-llama-70b": "DeepSeek R1 Distill Llama 70B",
   "deepseek-r1-distill-llama-70b-3bit": "DeepSeek R1 Distill Llama 70B (3-bit)",
-  "deepseek-r1-distill-llama-70b-6bit": "DeepSeek R1 Distill Llama 70B (6-bit)",
-  "deepseek-r1-distill-llama-70b-8bit": "DeepSeek R1 Distill Llama 70B (8-bit)",
   "deepseek-r1-distill-qwen-32b-6bit": "DeepSeek R1 Distill Qwen 32B (6-bit)",
 }
 

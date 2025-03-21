@@ -61,6 +61,7 @@ def _get_classes(config: dict):
 
 
 def load_config(model_path: Path) -> dict:
+  config = None
   try:
     config_path = model_path / "config.json"
     if config_path.exists():
