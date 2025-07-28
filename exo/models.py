@@ -142,6 +142,7 @@ model_cards = {
   # qwen3
   "qwen3-coder-480b-A35b-instruct-4bit": { "layers": 62, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-Coder-480B-A35B-Instruct-4bit", }, },
   "qwen3-235b-a22b-instruct-2507-8bit": { "layers": 94, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-235B-A22B-Instruct-2507-8bit", }, },
+  "qwen3-235b-a22b-thinking-2507-8bit": { "layers": 94, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-235B-A22B-Thinking-2507-8bit", }, },
   "qwen3-235b-a22b-instruct-2507-mlx-3bit": { "layers": 94, "repo": { "MLXDynamicShardInferenceEngine": "mlx-community/Qwen3-235B-A22B-Instruct-2507-3bit", }, },
 
   ### nemotron
@@ -200,6 +201,7 @@ pretty_name = {
   "qwen-2.5-math-72b": "Qwen 2.5 72B (Math)",
   "qwen3-coder-480b-a35b-instruct-4bit":"Qwen3 Coder 480B A35B Instruct 4bit",
   "qwen3-235b-a22b-instruct-2507-8bit": "Qwen3 235B A22B Instruct 2507 8bit",
+  "qwen3-235b-a22b-thinking-2507-8bit": "Qwen3 235B A22B Thinking 2507 8bit",
   "qwen3-235b-a22b-instruct-2507-mlx-3bit": "qwen3 235B A22B Instruct 2507 3bit",
   "phi-3.5-mini": "Phi-3.5 Mini",
   "phi-4": "Phi-4",
